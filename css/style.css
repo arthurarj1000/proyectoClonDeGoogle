@@ -117,9 +117,9 @@ body{
     color: #3D3D3D;
 }
 
-.texto #texto-link{
+#texto-link{
     text-decoration:inherit;
-    color:darkblue
+    color:#000099;
 }
 
 #texto-link:hover{
