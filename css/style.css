@@ -20,7 +20,7 @@ body{
 
 .header a{
     color: black;
-    text-decoration:inherit ;
+    text-decoration:inherit;
     font-size: 12.5px;
 }
 
@@ -106,8 +106,28 @@ body{
     cursor: pointer;
 }
 
+.texto{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 12.6px;
+    margin-top: 23px;
+    word-spacing: 1px;
+    padding-right: 20.65px;
+    color: #3D3D3D;
+}
+
+.texto #texto-link{
+    text-decoration:inherit;
+    color:darkblue
+}
+
+#texto-link:hover{
+    text-decoration: underline;
+}
+
 .btn-search{
-    margin-top: 30px;
+    margin-top: 24px;
     display: flex;
     justify-content: center;
 }
@@ -150,7 +170,7 @@ body{
 /* parte del footer html */
 
 .footer_link{
-    margin-top: 256px;
+    margin-top: 224.5px;
 }
 
 .footer_link_arriba{
