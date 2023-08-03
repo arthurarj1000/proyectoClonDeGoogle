@@ -1,0 +1,197 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin:0;
+}
+/* parte del header html*/
+.header{
+    display: flex;
+    justify-content: right;
+    padding: 15px 17px;
+    align-items: center;
+}
+
+.header a{
+    color: black;
+    text-decoration:inherit ;
+    font-size: 12.5px;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.header__derecho{
+    display:flex;
+    align-items: center;
+    min-width: 14.2vw;
+    justify-content: space-between;
+}
+
+#account{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#apps{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+/* parte del header html*/
+
+/* parte del main html */
+.main{
+    flex:1;
+    display:flex;
+    margin-top:1%;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 26px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 37.8vw;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 560px;
+}
+
+.inputs:hover{
+    box-shadow: 0px 1.15px 4px 1px #E2E2E2;    
+}
+
+#input-search{
+    flex:1;
+    padding: 10px 20px;
+    border: none;
+    outline:none;
+}
+
+#logo{
+    height: 93px;
+    object-fit: contain;  
+    margin-top: 23.5px;  
+}
+
+#lupa{
+    height: 13px;
+    width: 13px;
+    margin-bottom: 1.7px;
+    margin-left: -1.8px;
+}
+
+#camara{
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+
+#mic{
+    height: 22px;
+    width: 22px;
+    margin-right: 16px;   
+    cursor: pointer;
+}
+
+.btn-search{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#lucky{
+    margin:5px;
+    padding: 10px 15px;
+    border-radius: 3.5px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #3F3F3F;
+    text-decoration: inherit;
+    font-size: 14px; 
+}
+
+#search{
+    margin:5px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #3F3F3F;
+    text-decoration: inherit;
+    font-size: 14px;
+}
+
+#search:hover{
+    box-shadow: 0px 0.25px 0.83px 1px #D7D4D4;
+}
+
+#lucky:hover{
+    box-shadow: 0px 0.25px 0.83px 1px #D7D4D4;
+}
+/* parte del main html */
+
+/* parte del footer html */
+
+.footer_link{
+    margin-top: 256px;
+}
+
+.footer_link_arriba{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 30px;
+    align-items: center;
+    background-color: #F2F2F2;
+    color: #777777;
+    font-size: 15px;
+    height:19.18px;
+}
+
+.footer_link_abajo{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 14.9px;
+    align-items: center;
+    background-color: #F2F2F2;    
+    border-top: 0.95px solid #C0C0C0;
+}
+
+.footer_link_izquierdo a{
+    color: #777777;
+    text-decoration: inherit;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.footer_link_izquierdo a:hover{
+    text-decoration: underline;
+}
+
+.footer_link_derecho a{
+    color: #777777;
+    text-decoration: inherit;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.footer_link_derecho a:hover{
+    text-decoration: underline;
+}
+/* parte del footer html */
