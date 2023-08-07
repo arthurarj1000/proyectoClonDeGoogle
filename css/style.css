@@ -170,7 +170,7 @@ body{
 /* parte del footer html */
 
 .footer_link{
-    margin-top: 293px;
+    margin-top: 360px;
     position: absolute;
 }
 
@@ -183,6 +183,7 @@ body{
     color: #777777;
     font-size: 15px;
     height:19.18px;
+    position: absolute;
 }
 
 .footer_link_abajo{
@@ -192,6 +193,7 @@ body{
     align-items: center;
     background-color: #F2F2F2;    
     border-top: 0.95px solid #C0C0C0;
+    position: absolute;
 }
 
 .footer_link_izquierdo a{
