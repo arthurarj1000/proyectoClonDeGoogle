@@ -171,7 +171,7 @@ body{
 
 .footer_link{
     margin-top: 293px;
-    position:relative;
+    position: absolute;
 }
 
 .footer_link_arriba{
